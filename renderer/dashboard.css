@@ -11,6 +11,25 @@
   -webkit-app-region: drag;
 }
 
+.dash-card .app-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mark-badge {
+  font-family: 'Courier New', monospace;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--accent-ink);
+  background: var(--accent);
+  border: 2px solid var(--ink);
+  padding: 2px 5px;
+  flex: none;
+  white-space: nowrap;
+}
+
 .close-btn {
   margin-left: auto;
   width: 20px;
@@ -177,4 +196,17 @@
   font-size: 11px;
   color: var(--ink-soft);
   margin-top: 4px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 2px dashed var(--ink-soft);
+  font-family: 'Courier New', monospace;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: var(--ink-soft);
+  text-align: center;
+  -webkit-app-region: no-drag;
 }
