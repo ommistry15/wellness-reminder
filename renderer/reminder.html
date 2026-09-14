@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Wellness Reminder</title>
+<link rel="stylesheet" href="reminder.css" />
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="titlebar">
+      <span class="pixel-dot"></span>
+      <span class="app-name">WELLNESS.EXE</span>
+    </div>
+
+    <div class="icon-wrap">
+      <div class="pixel-icon" id="icon"></div>
+    </div>
+
+    <h1 class="title" id="title">REMINDER</h1>
+    <p class="message" id="message">This is a reminder.</p>
+
+    <div class="timer-wrap" id="timerWrap" hidden>
+      <div class="timer" id="timer">05:00</div>
+      <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+
+    <div class="buttons">
+      <button class="btn btn-secondary" id="snoozeBtn">LATER</button>
+      <button class="btn btn-primary" id="doneBtn">DONE</button>
+    </div>
+  </div>
+
+  <script src="icons.js"></script>
+  <script src="reminder.js"></script>
+</body>
+</html>
